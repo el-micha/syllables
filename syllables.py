@@ -206,7 +206,7 @@ class SyllablePattern:
 
 alph = Alphabet()
 
-a = SyllableSet(alph, 2,2)
+a = SyllableSet(alph, 0, 2)
 
 total = set()
 total.update(a.syllables)
